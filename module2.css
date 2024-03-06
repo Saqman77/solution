@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,20 +14,23 @@ h1 {
 }
 
 #card {
+    margin: 10px;
 border: 2px solid black;
-width: 350px;
+/* width: 350px; */
 background-color: gray;
 }
 
 #card2 {
+    margin: 10px;
 border: 2px solid black;
-width: 350px;
+/* width: 350px; */
 background-color: gray;
 }
 
 #card3 {
+    margin: 10px;
 border: 2px solid black;
-width: 350px;
+/* width: 350px; */
 background-color: gray;
 }
 
@@ -106,7 +109,7 @@ background-color: gray;
         width: 25%;
      }
      .col-lg-4 {
-        width: 33.33%;
+        width: calc(33.33% - 60px);
      }
      .col-lg-5 {
         width: 41.66%;
